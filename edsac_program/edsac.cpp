@@ -9,6 +9,7 @@ int main() {
 	int digit = 0;
 	while (digit<100) {
 
+
 		int dgt_square = pow(digit, 2);
 		cout << digit << '\t' << dgt_square << endl;
 		++digit;
